@@ -1,0 +1,61 @@
+{
+    "phase": "Phase Name",
+    "goal": "Goal description here",
+    "weekly_plan": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "schedule": {
+        "Monday": ["Activity 1", "Activity 2"],
+        "Tuesday": ["Activity 1"],
+        "Wednesday": ["Activity 1"],
+        "Thursday": ["Activity 1"],
+        "Friday": ["Activity 1", "Activity 2"],
+        "Saturday": ["Activity 1"],
+        "Sunday": ["Rest Day"]
+      }
+    },
+    "exercise_categories": [
+      {
+        "category": "Movement Prep",
+        "exercises": [
+          {"name": "Exercise Name", "sets": 2, "reps": [10, 12, 14], "description": "optional"}
+        ]
+      },
+      {
+        "category": "Strength",
+        "exercises": [
+          {"name": "Exercise Name", "sets": 3, "reps": [8, 8, 10], "tempo": "30X"}
+        ]
+      },
+      {
+        "category": "Elasticity",
+        "exercises": [
+          {"name": "Exercise Name", "sets": 2, "reps": ["6 sec", "8 sec", "10 sec"]}
+        ]
+      },
+      {
+        "category": "Physioball",
+        "exercises": [
+          {"name": "Exercise Name", "sets": 2, "reps": [8, 10, 12]}
+        ]
+      },
+      {
+        "category": "Energy System Development",
+        "exercises": [
+          {
+            "name": "ESD Lactate Power",
+            "description": "Short, High-Intensity Intervals",
+            "work_interval": "30 sec",
+            "rest_interval": "60 sec",
+            "total_time": "15 min"
+          }
+        ]
+      },
+      {
+        "category": "Regeneration",
+        "exercises": [
+          {"name": "Exercise Name", "reps": ["10 mins"]}
+        ]
+      }
+    ]
+  }
+  

@@ -1,67 +1,66 @@
 {
-    "phase": "Phase 2 Foundation",
-    "goal": "Increase Mobility, Stability, Strength, Balance Whilst increasing Aerobic Base",
+    "phase": "Phase 2 Extensive",
+    "goal": "Increase Mobility, Stability, Strength, Balance Whilst Increasing Aerobic Base",
     "weekly_plan": {
         "days": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" ],
         "schedule": {
             "Monday": [ "Movement Prep A&B", "Prehab 1,2,3", "Elasticity", "Regen: Foam" ],
             "Tuesday": [ "Movement Prep A", "Strength A", "ESD 4" ],
             "Wednesday": [ "ESD 3", "Physioball", "Regen: Foam" ],
-            "Thursday": [ "Movement Prep A", "Strength A", "ESD 4" ],
-            "Friday": [ "Movement Prep B", "Elasticity", "Regen: AIS" ],
-            "Saturday": [ "ESD 3", "Physioball", "Regen: AIS" ],
+            "Thursday": [ "Movement Prep A&B", "Prehab 1,2,3", "Elasticity", "Regen: AIS" ],
+            "Friday": [ "Movement Prep B", "Strength B", "ESD 5" ],
+            "Saturday": [ "ESD 3", "Physioball", "Regen: Foam" ],
             "Sunday": [ "Rest Day" ]
         }
     },
     "exercise_categories": [
         {
-            "category": "Movement Prep A",
+            "category": "Movement Prep",
             "exercises": [
-                { "exercise": "Forward Lunge/ Elbow to Instep", "reps": [ 5, 6, 7 ] },
-                { "exercise": "Hand Walk", "reps": [ 5, 6, 7 ] },
-                { "exercise": "Inverted Hamstring", "reps": [ 5, 6, 7 ] }
+                { "name": "Forward Lunge", "reps": [ 5, 6, 7 ] }
             ]
         },
         {
-            "category": "Movement Prep B",
+            "category": "Strength",
             "exercises": [
-                { "exercise": "Hip Crossover (Feet Up)", "reps": [ 5, 6, 7 ] },
-                { "exercise": "Lunge Stretch (Moving)", "reps": [ 5, 6, 7 ] },
-                { "exercise": "Drop Lunge", "reps": [ 5, 6, 7 ] }
-            ]
-        },
-        {
-            "category": "Elasticity",
-            "exercises": [
-                { "exercise": "Squat Jump", "reps": [ 5, 6, 7 ] },
-                { "exercise": "Lateral Bound", "reps": [ 3, 4, 4 ] }
-            ]
-        },
-        {
-            "category": "Strength A",
-            "exercises": [
-                { "exercise": "DB Bench Press", "sets": 2, "reps": [ "10", "10", "12" ] },
-                { "exercise": "Romanian Deadlift", "sets": 2, "reps": [ "10", "10", "12" ] }
+                { "name": "DB Bench Press", "sets": 3, "reps": [ "10", "8", "8" ] }
             ]
         },
         {
             "category": "Physioball",
             "exercises": [
-                { "exercise": "Physioball Russian Twist", "reps": [ "8 @", "10 @", "12 @" ] }
+                { "name": "Russian Twist", "sets": 2, "reps": [ 8, 10, 12 ] }
+            ]
+        },
+        {
+            "category": "Elasticity",
+            "exercises": [
+                { "name": "Squat Jump", "sets": 2, "reps": [ 5, 6, 7 ] }
             ]
         },
         {
             "category": "Energy System Development",
             "exercises": [
-                { "exercise": "Aerobic 3", "description": "Interval Zone 2, 15 min" },
-                { "exercise": "Aerobic 4", "description": "Continuous Zone 1, 25 min" }
+                {
+                    "name": "ESD 4 Lactate Power",
+                    "description": "Short, High-Intensity Intervals",
+                    "work_interval": "30 sec",
+                    "rest_interval": "60 sec",
+                    "total_time": "15 min"
+                  },
+                  {
+                    "name": "ESD 5 Lactate Power",
+                    "description": "Short, High-Intensity Intervals",
+                    "work_interval": "30 sec",
+                    "rest_interval": "60 sec",
+                    "total_time": "15 min"
+                }
             ]
         },
         {
             "category": "Regeneration",
             "exercises": [
-                { "exercise": "Foam Roll", "reps": [ "8", "10", "12" ] },
-                { "exercise": "AIS Rope Stretch", "reps": [ "8", "10", "12" ] }
+                { "name": "Foam Roll", "sets": 1, "reps": [ "10 mins" ] }
             ]
         }
     ]

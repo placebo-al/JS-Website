@@ -1,109 +1,78 @@
 {
     "phase": "Phase 1 Foundation",
-    "goal": "Increase Mobility, Stability, Balance Whilst increasing Aerobic Base",
+    "goal": "Increase Mobility, Stability, Strength, Balance Whilst Increasing Aerobic Base",
     "weekly_plan": {
-      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      "weeks": [
+        "days": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" ],
+        "schedule": {
+            "Monday": [ "Movement Prep", "Prehab", "ESD", "Regen Foam" ],
+            "Tuesday": [ "Physioball", "Strength", "Regen AIS" ],
+            "Wednesday": [ "Movement Prep", "ESD", "Regeneration" ],
+            "Thursday": [ "Physioball", "Prehab", "ESD", "Regeneration" ],
+            "Friday": [ "Movement Prep", "Strength", "Prehab" ],
+            "Saturday": [ "ESD", "Regen Foam", "Regen AIS" ],
+            "Sunday": [ "Rest Day" ]
+        }
+    },
+    "exercise_categories": [
         {
-          "week": "Week 1",
-          "schedule": {
-            "Monday": ["ESD 1", "Movement Prep"],
-            "Tuesday": ["ESD 1", "Movement Prep", "Physioball"],
-            "Wednesday": ["ESD 1", "Movement Prep", "Regeneration"],
-            "Thursday": ["ESD 2", "Prehab 1,2,3"],
-            "Friday": ["ESD 1", "Strength"],
-            "Saturday": ["Regeneration"],
-            "Sunday": ["Rest Day"]
-          }
+            "category": "Movement Prep",
+            "exercises": [
+                { "name": "Hip Crossover", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Calf Stretch", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Hand Walk", "sets": 1, "reps": [ 4, 5, 5 ] },
+                { "name": "Forward Lunge/ Elbow to Instep", "sets": 1, "reps": [ 4, 5, 5 ] },
+                { "name": "Backward Lunge with a Twist", "sets": 1, "reps": [ 4, 5, 5 ] },
+                { "name": "Lateral Lunge", "sets": 1, "reps": [ 4, 5, 5 ] },
+                { "name": "Sumo Squat to Stand", "sets": 1, "reps": [ 8, 10, 10 ] }
+            ]
         },
         {
-          "week": "Week 2 & 3",
-          "schedule": {
-            "Monday": ["Movement Prep", "Prehab 1,2,3", "ESD 1", "Regen: Foam"],
-            "Tuesday": ["Physioball", "Strength", "Regen: AIS"],
-            "Wednesday": ["ESD 2", "Movement Prep", "Prehab: Core", "Regen: Foam"],
-            "Thursday": ["Physioball", "Prehab: Shoulder", "Prehab: Hip", "ESD 1", "Regen: AIS"],
-            "Friday": ["Movement Prep", "Strength", "Prehab: Core"],
-            "Saturday": ["ESD 2", "Regen: Foam", "Regen: AIS"],
-            "Sunday": []
-          }
+            "category": "Strength",
+            "exercises": [
+                { "name": "Alt DB Bench Press", "sets": 2, "reps": [ 15, 12, 12 ] },
+                { "name": "FB Leg Curl", "sets": 2, "reps": [ 10, 12, 12 ] },
+                { "name": "1-Arm 1-Leg DB Row", "sets": 2, "reps": [ 10, 12, 12 ] },
+                { "name": "Split Squat/Lunge", "sets": 2, "reps": [ 15, 12, 12 ] }
+            ]
+        },
+        {
+            "category": "Prehab",
+            "exercises": [
+                { "name": "Floor PB T", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Floor PB Y", "sets": 1, "reps": [ 8, 10, 10 ] }
+            ]
+        },
+        {
+            "category": "Physioball",
+            "exercises": [ { "name": "Lateral Roll", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Russian Twist", "sets": 1, "reps": [ 8, 10, 10 ] }
+            ]
+        },
+        {
+            "category": "Energy System Development",
+            "exercises": [
+                {
+                  "name": "Aerobic 1",
+                  "description": "12min Zone 1",
+                  "work_interval": "",
+                  "rest_interval": "",
+                  "total_time": "12 min"
+                },
+                {
+                  "name": "Aerobic 2",
+                  "description": "20min Zone 1",
+                  "work_interval": "",
+                  "rest_interval": "",
+                  "total_time": "20 min"
+                }
+            ]
+        },
+        {
+            "category": "Regeneration",
+            "exercises": [
+                { "name": "Foam Roll", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope Stretch", "sets": 1, "reps": [ "8", "10", "12" ] }
+            ]
         }
-      ]
-    },
-    "exercises": [
-      {
-        "category": "Movement Prep",
-        "details": [
-          {"exercise": "Hip Crossover", "week1": "8 @ Feet Down", "week2_3": "10 @ to 90d"},
-          {"exercise": "Calf Stretch", "week1": "8 @", "week2_3": "10 @"},
-          {"exercise": "Hand Walk", "week1": "4", "week2_3": "5"},
-          {"exercise": "Forward Lunge/ Elbow to Instep", "week1": "", "week2_3": "5 @"},
-          {"exercise": "Backward Lunge with a Twist", "week1": "4 @", "week2_3": "5 @"},
-          {"exercise": "Lateral Lunge", "week1": "4 @", "week2_3": "5 @"},
-          {"exercise": "Sumo Squat to Stand", "week1": "8", "week2_3": "10"}
-        ]
-      },
-      {
-        "category": "Strength",
-        "tempo": "212",
-        "rest": "30 sec",
-        "details": [
-          {"exercise": "Alt DB Bench Press", "sets": 2, "reps": ["15", "12", "12", "10", "10"]},
-          {"exercise": "FB Leg Curl", "sets": 2, "reps": ["10", "12", "10", "12", "12"]},
-          {"exercise": "1-Arm 1-Leg DB Row", "sets": 2, "reps": ["15 @", "12 @", "12 @", "10 @", "10 @"]},
-          {"exercise": "Split Squat/Lunge", "sets": 2, "reps": ["15 @", "12 @", "12 @", "10 @", "10 @"]}
-        ]
-      },
-      {
-        "category": "Prehab",
-        "subcategories": [
-          {
-            "subcategory": "Shoulder",
-            "exercises": [
-              {"exercise": "Floor/ PB T", "week1": "8", "week2_3": "10"},
-              {"exercise": "Floor/ PB Y", "week1": "8", "week2_3": "10"}
-            ]
-          },
-          {
-            "subcategory": "Hip",
-            "exercises": [
-              {"exercise": "Glute Bridge", "week1": "8", "week2_3": "10"},
-              {"exercise": "Side Lying Ad/Abduction", "week1": "8 @", "week2_3": "10 @"}
-            ]
-          }
-        ]
-      },
-      {
-        "category": "Physioball",
-        "details": [
-          {"exercise": "Lateral Roll", "week1": "8 @", "week2_3": "10 @"},
-          {"exercise": "Russian Twist", "week1": "8 @", "week2_3": "10 @"}
-        ]
-      },
-      {
-        "category": "Energy System Development",
-        "details": [
-          {"exercise": "Aerobic 1", "description": "12min Zone 1"},
-          {"exercise": "Aerobic 2", "description": "20min Zone 1"}
-        ]
-      },
-      {
-        "category": "Regeneration",
-        "subcategories": [
-          {
-            "subcategory": "Foam",
-            "exercises": [
-              {"exercise": "Foam Hamstring", "reps": ["8", "10", "12"]}
-            ]
-          },
-          {
-            "subcategory": "AIS",
-            "exercises": [
-              {"exercise": "AIS Rope Calf", "reps": ["8", "10", "12"]}
-            ]
-          }
-        ]
-      }
     ]
-  }
-  
+}

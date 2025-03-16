@@ -32,17 +32,19 @@ main {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
-}
-
-.workout-table th, .workout-table td {
+  }
+  
+  .workout-table th,
+  .workout-table td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
     text-align: center;
-}
-
-.workout-table th {
+  }
+  
+  .workout-table th {
     background-color: #f4f4f4;
-}
+    font-weight: bold;
+  }
 
 /* Adding the css for improving the look of the weekly table */
 
@@ -63,5 +65,48 @@ main {
     background-color: #f4f4f4;
     font-weight: bold;
 }
+
+/* Submenu CSS  */
+
+#nav-container {
+    display: flex;
+    align-items: center;   /* Centers items horizontally */
+    justify-content: center;
+    position: relative;
+  }
+   
+  .nav-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative; /* Required for submenu positioning */
+  }
+  
+  .submenu {
+    position: relative; /* Ensures submenu-items are positioned relative to this */
+  }
+  
+  .submenu-items {
+    position: absolute;
+    top: 100%; /* Makes the submenu appear below the main item */
+    left: 0; /* Aligns submenu with parent */
+    background-color: white; /* Background for visibility */
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    min-width: 150px; /* Adjust as needed */
+    z-index: 10; /* Ensures submenu appears above content */
+  }
+  
+  .submenu-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+  
+  .submenu:hover .submenu-items {
+    display: flex; /* Show submenu on hover */
+  }
 
 

@@ -2,44 +2,65 @@
     "phase": "Phase 3 Intensive",
     "goal": "Speed, Power, Strength, Quality",
     "weekly_plan": {
-        "days": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-        ],
+        "days": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" ],
         "schedule": {
-            "Monday": [ "Movement Prep A", "Elasticity 'A'", "Prehab: Shoulder 1", "Strength 'A' 30X (Explosive)" ],
-            "Tuesday": [ "ESD8 Lactate Power", "Movement Prep B", "Elasticity 'B'", "Strength 'B': 30X Tempo" ],
-            "Wednesday": [ "ESD3 Aerobic Capacity", "Prehab: Core", "Regeneration: Foam", "Regeneration: Rope" ],
-            "Thursday": [ "Movement Prep A", "Elasticity 'A'", "Strength 'A' 30X (Explosive)", "Prehab: Shoulder 1", "Regeneration: Foam" ],
-            "Friday": [ "ESD9 Lactate Capacity", "Movement Prep B", "Elasticity 'B'", "Strength 'B': 30X Tempo" ],
-            "Saturday": [ "ESD3 Aerobic Capacity", "Prehab: Core", "Regeneration: Foam", "Regeneration: Rope" ]
-        }
+            "Monday": [ "Movement Prep", "Elasticity", "Strength", "Regen Foam" ],
+            "Tuesday": [ "ESD Lactate Power", "Prehab", "Regen AIS" ],
+            "Wednesday": [ "Movement Prep", "Elasticity", "Strength", "Regen Foam" ],
+            "Thursday": [ "ESD Lactate Capacity", "Physioball", "Regen AIS" ],
+            "Friday": [ "Movement Prep", "Elasticity", "Strength", "Regen Foam" ],
+            "Saturday": [ "ESD Aerobic Capacity", "Regen Foam", "Regen AIS" ],
+            "Sunday": [ "Rest Day" ] }
     },
     "exercise_categories": [
         {
-            "category": "Prehab Shoulder",
+            "category": "Movement Prep",
             "exercises": [
-                { "exercise": "FB 'Y' + weight", "sets": 1, "reps": [ 10, 12, 12 ] },
-                { "exercise": "FB 'T' + weight", "sets": 1, "reps": [ 10, 12, 12 ] },
-                { "exercise": "FB 'W' + weight", "sets": 1, "reps": [ 10, 12, 12 ] },
-                { "exercise": "FB 'L' + weight", "sets": 1, "reps": [ 10, 12, 12 ] }
+                { "name": "Hand Walk", "reps": [ 5, 6, 7 ] }
             ]
         },
         {
-            "category": "Movement Prep A",
+            "category": "Strength",
             "exercises": [
-                { "exercise": "Forward Lunge/Forearm to instep", "sets": 1, "reps": [ 5, 6, 7 ] },
-                { "exercise": "Backward Lunge with a Twist", "sets": 1, "reps": [ 5, 6, 7 ] },
-                { "exercise": "Calf Stretch", "sets": 1, "reps": [ 10, 12, 14 ] },
-                { "exercise": "Hand Walk", "sets": 1, "reps": [ 5, 6, 7 ] },
-                { "exercise": "Inverted Hamstring", "sets": 1, "reps": [ 5, 6, 7 ] }
+                { "name": "Front Squat", "sets": 3, "reps": [ "10", "8", "6" ] }
             ]
         },
         {
-            "category": "Elasticity A",
+            "category": "Elasticity",
             "exercises": [
-                { "exercise": "1 Leg over the Line", "sets": 2, "reps": [ "5 secs", "2", "7 secs" ] },
-                { "exercise": "Get Up", "sets": 2, "reps": [ "4 reps", "2", "5 reps" ] },
-                { "exercise": "Side to Side Jump to Sprint", "sets": 2, "reps": [ "4 jumps each side", "3", "5 jumps each side" ] } 
-	    ]
-       	} 
-    ] 
+                { "name": "Lateral Bound", "sets": 2, "reps": [ 5, 6, 7 ] }
+            ]
+        },
+        {
+            "category": "Physioball",
+            "exercises": [
+                { "name": "Physioball Crunch", "sets": 2, "reps": [ 8, 10, 12 ] }
+            ]
+        },
+        {
+            "category": "Energy System Development",
+            "exercises": [
+                {
+                    "name": "ESD Lactate Power",
+                    "description": "Short, High-Intensity Intervals",
+                    "work_interval": "30 sec",
+                    "rest_interval": "60 sec",
+                    "total_time": "15 min"
+                  },
+                  {
+                    "name": "ESD Lactate Power",
+                    "description": "Short, High-Intensity Intervals",
+                    "work_interval": "30 sec",
+                    "rest_interval": "60 sec",
+                    "total_time": "15 min"
+                  }
+            ]
+        },
+        {
+            "category": "Regeneration",
+            "exercises": [
+                { "name": "Foam Roll", "sets": 1, "reps": [ "10 mins" ] }
+            ]
+        }
+    ]
 }

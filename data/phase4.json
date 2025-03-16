@@ -4,67 +4,63 @@
     "weekly_plan": {
         "days": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" ],
         "schedule": {
-            "Monday": [ "Movement Prep A", "Elasticity A", "Strength A", "Regen: Foam Roll" ],
-            "Tuesday": [ "ESD Lactate Power", "Prehab: Shoulder & Core", "Regen: AIS" ],
-            "Wednesday": [ "Movement Prep B", "Elasticity B", "Strength B", "Regen: Foam Roll" ],
-            "Thursday": [ "ESD Lactate Capacity", "Physioball", "Regen: AIS" ],
-            "Friday": [ "Movement Prep A", "Elasticity A", "Strength B", "Regen: Foam Roll" ],
-            "Saturday": [ "ESD 10 Lactate Power", "Regen: Foam Roll", "Regen: AIS" ],
+            "Monday": [ "Movement Prep", "Elasticity", "Strength", "Regen Foam" ],
+            "Tuesday": [ "ESD Lactate Power", "Prehab", "Regen AIS" ],
+            "Wednesday": [ "Movement Prep", "Elasticity", "Strength", "Regen Foam" ],
+            "Thursday": [ "ESD Lactate Capacity", "Physioball", "Regen AIS" ],
+            "Friday": [ "Movement Prep", "Elasticity", "Strength", "Regen Foam" ],
+            "Saturday": [ "ESD Lactate Power", "Regen Foam", "Regen AIS" ],
             "Sunday": [ "Rest Day" ]
         }
     },
     "exercise_categories": [
         {
-            "category": "Movement Prep A",
+            "category": "Movement Prep",
             "exercises": [
-                { "exercise": "Hip Crossover (Feet Up)", "reps": [ 6, 8, 10 ] },
-                { "exercise": "Inverted Hamstring", "reps": [ 6, 8, 10 ] },
-                { "exercise": "Lateral Lunge", "reps": [ 6, 8, 10 ] },
-                { "exercise": "Forward Lunge Elbow to Instep", "reps": [ 6, 8, 10 ] }
+                { "name": "Hip Crossover", "reps": [ 6, 8, 10 ] }
             ]
         },
         {
-            "category": "Elasticity A",
+            "category": "Strength",
             "exercises": [
-                { "exercise": "Squat Jump", "sets": 2, "reps": [ 6, 8, 10 ] },
-                { "exercise": "Lateral Bound", "sets": 2, "reps": [ 6, 8, 10 ] }
+                { "name": "Deadlift", "sets": 3, "reps": [ "8", "6", "6" ] }
             ]
         },
         {
-            "category": "Strength A",
+            "category": "Elasticity",
             "exercises": [
-                { "exercise": "Front Squat", "sets": 3, "reps": [ "10", "8", "6" ] },
-                { "exercise": "Bench Press", "sets": 3, "reps": [ "10", "8", "8" ] },
-                { "exercise": "DB Row", "sets": 3, "reps": [ "10", "8", "8" ] },
-                { "exercise": "RDL", "sets": 3, "reps": [ "10", "8", "8" ] }
-            ]
-        },
-        {
-            "category": "Strength B",
-            "exercises": [
-                { "exercise": "Deadlift", "sets": 3, "reps": [ "8", "6", "6" ] },
-                { "exercise": "Push Press", "sets": 3, "reps": [ "8", "8", "6" ] },
-                { "exercise": "Single Leg Squat", "sets": 3, "reps": [ "8 @", "8 @", "10 @" ] }
+                { "name": "Squat Jump", "sets": 2, "reps": [ 6, 8, 10 ] }
             ]
         },
         {
             "category": "Physioball",
             "exercises": [
-                { "exercise": "Russian Twist", "sets": 2, "reps": [ "10 @", "12 @", "14 @" ] },
-                { "exercise": "Leg Curl", "sets": 2, "reps": [ "10", "12", "14" ] }
+                { "name": "Russian Twist", "sets": 2, "reps": [ 10, 12, 14 ] }
             ]
         },
         {
             "category": "Energy System Development",
             "exercises": [
-                { "exercise": "ESD 10 Lactate Power", "description": "Short Intervals, Max Effort" }
-            ]
-        },
+                {
+                    "name": "ESD Lactate Power",
+                    "description": "Short, High-Intensity Intervals",
+                    "work_interval": "30 sec",
+                    "rest_interval": "60 sec",
+                    "total_time": "15 min"
+                  },
+                  {
+                    "name": "ESD Lactate Power",
+                    "description": "Short, High-Intensity Intervals",
+                    "work_interval": "30 sec",
+                    "rest_interval": "60 sec",
+                    "total_time": "15 min"
+                  } 
+                ] 
+            },
         {
             "category": "Regeneration",
             "exercises": [
-                { "exercise": "Foam Roll", "reps": [ "10 mins" ] },
-                { "exercise": "AIS Rope Stretch", "reps": [ "8 reps each side", "10 reps each side", "12 reps each side" ] }
+                { "name": "Foam Roll", "sets": 1, "reps": [ "10 mins" ] }
             ]
         }
     ]
