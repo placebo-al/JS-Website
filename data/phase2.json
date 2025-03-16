@@ -1,0 +1,68 @@
+{
+    "phase": "Phase 2 Foundation",
+    "goal": "Increase Mobility, Stability, Strength, Balance Whilst increasing Aerobic Base",
+    "weekly_plan": {
+        "days": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" ],
+        "schedule": {
+            "Monday": [ "Movement Prep A&B", "Prehab 1,2,3", "Elasticity", "Regen: Foam" ],
+            "Tuesday": [ "Movement Prep A", "Strength A", "ESD 4" ],
+            "Wednesday": [ "ESD 3", "Physioball", "Regen: Foam" ],
+            "Thursday": [ "Movement Prep A", "Strength A", "ESD 4" ],
+            "Friday": [ "Movement Prep B", "Elasticity", "Regen: AIS" ],
+            "Saturday": [ "ESD 3", "Physioball", "Regen: AIS" ],
+            "Sunday": [ "Rest Day" ]
+        }
+    },
+    "exercise_categories": [
+        {
+            "category": "Movement Prep A",
+            "exercises": [
+                { "exercise": "Forward Lunge/ Elbow to Instep", "reps": [ 5, 6, 7 ] },
+                { "exercise": "Hand Walk", "reps": [ 5, 6, 7 ] },
+                { "exercise": "Inverted Hamstring", "reps": [ 5, 6, 7 ] }
+            ]
+        },
+        {
+            "category": "Movement Prep B",
+            "exercises": [
+                { "exercise": "Hip Crossover (Feet Up)", "reps": [ 5, 6, 7 ] },
+                { "exercise": "Lunge Stretch (Moving)", "reps": [ 5, 6, 7 ] },
+                { "exercise": "Drop Lunge", "reps": [ 5, 6, 7 ] }
+            ]
+        },
+        {
+            "category": "Elasticity",
+            "exercises": [
+                { "exercise": "Squat Jump", "reps": [ 5, 6, 7 ] },
+                { "exercise": "Lateral Bound", "reps": [ 3, 4, 4 ] }
+            ]
+        },
+        {
+            "category": "Strength A",
+            "exercises": [
+                { "exercise": "DB Bench Press", "sets": 2, "reps": [ "10", "10", "12" ] },
+                { "exercise": "Romanian Deadlift", "sets": 2, "reps": [ "10", "10", "12" ] }
+            ]
+        },
+        {
+            "category": "Physioball",
+            "exercises": [
+                { "exercise": "Physioball Russian Twist", "reps": [ "8 @", "10 @", "12 @" ] }
+            ]
+        },
+        {
+            "category": "Energy System Development",
+            "exercises": [
+                { "exercise": "Aerobic 3", "description": "Interval Zone 2, 15 min" },
+                { "exercise": "Aerobic 4", "description": "Continuous Zone 1, 25 min" }
+            ]
+        },
+        {
+            "category": "Regeneration",
+            "exercises": [
+                { "exercise": "Foam Roll", "reps": [ "8", "10", "12" ] },
+                { "exercise": "AIS Rope Stretch", "reps": [ "8", "10", "12" ] }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "levels": [
+        {
+            "level": "Level 1 - Get Ready",
+            "sections": [
+                {
+                    "title": "Movement Prep (15 mins)",
+                    "exercises": [
+                        { "exercise": "90/90 Stretch", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Lunge Stretch", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Inverted Hamstring (In place)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Lateral Lunge", "reps": [ 6, 6, 8, 10 ] }
+                    ]
+                },
+                {
+                    "title": "Prehab (15 mins)",
+                    "exercises": [
+                        { "exercise": "Pillar Bridge Front (Kneeling)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Pillar Bridge Lateral (Kneeling)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Glute Bridge (Mini band)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Floor Y's and T's", "reps": [ 6, 6, 8, 10 ] }
+                    ]
+                },
+                {
+                    "title": "Cardio",
+                    "exercises": [
+                        { "exercise": "Steady Low Intensity (mins)", "reps": [ 18, 18, 24, 30 ] }
+                    ]
+                }
+            ]
+        },
+        {
+            "level": "Level 2 - Get Set…Go!",
+            "sections": [
+                {
+                    "title": "Movement Prep (10 mins)",
+                    "exercises": [
+                        { "exercise": "90/90 Stretch", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Lunge Stretch", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Handwalk (Reverse)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Inverted Hamstring (In place)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Lateral Lunge", "reps": [ 6, 6, 8, 10 ] }
+                    ]
+                },
+                {
+                    "title": "Prehab (10 mins)",
+                    "exercises": [
+                        { "exercise": "Pillar Bridge Front", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Pillar Bridge Lateral", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Glute Bridge (Padded)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Mini Band Standing", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Physioball Y's and T's", "reps": [ 6, 6, 8, 10 ] }
+                    ]
+                },
+                {
+                    "title": "Strength Circuit (10 mins)",
+                    "exercises": [
+                        { "exercise": "Press Up (Kneeling or Full)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Glute Bridge (Physioball)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Floor Crunch (Double the reps)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Squat (Body Wt with Mini Band)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Split DB Curl", "reps": [ 6, 6, 8, 10 ] }
+                    ]
+                }
+            ]
+        },
+        {
+            "level": "Level 3 - Get Stable",
+            "sections": [
+                {
+                    "title": "Movement Prep (7 mins)",
+                    "exercises": [
+                        { "exercise": "Hip Crossover", "reps": [ 3, 3, 4, 5 ] },
+                        { "exercise": "Lunge Stretch (Moving)", "reps": [ 3, 3, 4, 5 ] },
+                        { "exercise": "Handwalk", "reps": [ 3, 3, 4, 5 ] },
+                        { "exercise": "Inverted Hamstring (Backwards)", "reps": [ 3, 3, 4, 5 ] },
+                        { "exercise": "Lateral Lunge (Moving)", "reps": [ 3, 3, 4, 5 ] },
+                        { "exercise": "Drop Lunge", "reps": [ 3, 3, 4, 5 ] }
+                    ]
+                },
+                {
+                    "title": "Prehab (8 mins)",
+                    "exercises": [
+                        { "exercise": "Sumo Squat to Hamstring Stretch", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Pillar Bridge Front (Wide Feet)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Pillar Bridge Lateral (Stacked Feet)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Glute Bridge (Marching)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Mini Band Walking", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Physioball Y's and T's (Arms Extended)", "reps": [ 6, 6, 8, 10 ] }
+                    ]
+                },
+                {
+                    "title": "Strength Circuit (15 mins)",
+                    "exercises": [
+                        { "exercise": "Press Up (Physioball)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Glute Bridge (Physioball with Leg Curl)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Physioball Crunch (Double the reps)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Squat (Single Leg to bench)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Diagonal Standing Lift", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Split DB Curl to Press", "reps": [ 6, 6, 8, 10 ] }
+                    ]
+                }
+            ]
+        },
+        {
+            "level": "Level 4 - Get Strong",
+            "sections": [
+                {
+                    "title": "Movement Prep (7 mins)",
+                    "exercises": [
+                        { "exercise": "Hip Crossover (Feet Up)", "reps": [ 5, 5, 4, 3 ] },
+                        { "exercise": "Lunge Stretch (Moving)", "reps": [ 5, 5, 4, 3 ] },
+                        { "exercise": "Handwalk", "reps": [ 5, 5, 4, 3 ] },
+                        { "exercise": "Inverted Hamstring (Backwards)", "reps": [ 5, 5, 4, 3 ] },
+                        { "exercise": "Lateral Lunge (Moving)", "reps": [ 5, 5, 4, 3 ] },
+                        { "exercise": "Drop Lunge", "reps": [ 5, 5, 4, 3 ] }
+                    ]
+                },
+                {
+                    "title": "Prehab (8 mins)",
+                    "exercises": [
+                        { "exercise": "Physioball Plate Crunch (Double the reps)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Pillar Bridge Front (Narrow Feet)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Pillar Bridge Lateral (Jumping Jack)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Glute Bridge (Single Leg - Knee Bent)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Mini Band Walking (Add Resistance)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Physioball Y's and T's (Add Weight)", "reps": [ 6, 6, 8, 10 ] }
+                    ]
+                },
+                {
+                    "title": "Strength Circuit",
+                    "exercises": [
+                        { "exercise": "Alternating DB Bench Press", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Romanian Deadlift (Two Arms - 1 Leg)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "One-Arm One Leg DB Row", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Split Squat (Rear Foot Elevated)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Diagonal Standing Lift (One Leg)", "reps": [ 6, 6, 8, 10 ] },
+                        { "exercise": "Alternating Split DB Curl to Press", "reps": [ 6, 6, 8, 10 ] }
+                    ]
+                }
+            ]
+        },
+        {
+            "level": "Regeneration",
+            "sections": [
+                {
+                    "title": "Regeneration Exercises",
+                    "exercises": [
+                        { "exercise": "Foam Roll - Quads / Hip Flexors", "reps": [] },
+                        { "exercise": "Foam Roll - Hamstring", "reps": [] },
+                        { "exercise": "Foam Roll - I.T. Band", "reps": [] },
+                        { "exercise": "Foam Roll - Lower Back", "reps": [] },
+                        { "exercise": "Foam Roll - Upper Back", "reps": [] },
+                        { "exercise": "Foam Roll - Lats", "reps": [] },
+                        { "exercise": "Tennis Ball - Arch Roll", "reps": [] },
+                        { "exercise": "Rope - Straight Leg Hamstring", "reps": [] },
+                        { "exercise": "Rope - Bent-Knee Hamstring", "reps": [] },
+                        { "exercise": "Stretch - Quad / Hip Flexor Stretch (Kneeling - Back foot up)", "reps": [] },
+                        { "exercise": "Stretch - 90/90 Stretch", "reps": [] },
+                        { "exercise": "Stretch - Glute Stretch (Supine)", "reps": [] }
+                    ]
+                }
+            ]
+        }
+    ]
+}
