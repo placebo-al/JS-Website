@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#nav-container a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-container a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* The added workout css */
+
+.workout-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.workout-table th, .workout-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.workout-table th {
+    background-color: #f4f4f4;
+}
+
+/* Adding the css for improving the look of the weekly table */
+
+.weekly-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.weekly-table th,
+.weekly-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.weekly-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+

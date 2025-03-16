@@ -1,0 +1,71 @@
+{
+    "phase": "Phase 4 Performance",
+    "goal": "Maximise Power, Speed, Strength, Agility, Quickness and Anaerobic Conditioning",
+    "weekly_plan": {
+        "days": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" ],
+        "schedule": {
+            "Monday": [ "Movement Prep A", "Elasticity A", "Strength A", "Regen: Foam Roll" ],
+            "Tuesday": [ "ESD Lactate Power", "Prehab: Shoulder & Core", "Regen: AIS" ],
+            "Wednesday": [ "Movement Prep B", "Elasticity B", "Strength B", "Regen: Foam Roll" ],
+            "Thursday": [ "ESD Lactate Capacity", "Physioball", "Regen: AIS" ],
+            "Friday": [ "Movement Prep A", "Elasticity A", "Strength B", "Regen: Foam Roll" ],
+            "Saturday": [ "ESD 10 Lactate Power", "Regen: Foam Roll", "Regen: AIS" ],
+            "Sunday": [ "Rest Day" ]
+        }
+    },
+    "exercise_categories": [
+        {
+            "category": "Movement Prep A",
+            "exercises": [
+                { "exercise": "Hip Crossover (Feet Up)", "reps": [ 6, 8, 10 ] },
+                { "exercise": "Inverted Hamstring", "reps": [ 6, 8, 10 ] },
+                { "exercise": "Lateral Lunge", "reps": [ 6, 8, 10 ] },
+                { "exercise": "Forward Lunge Elbow to Instep", "reps": [ 6, 8, 10 ] }
+            ]
+        },
+        {
+            "category": "Elasticity A",
+            "exercises": [
+                { "exercise": "Squat Jump", "sets": 2, "reps": [ 6, 8, 10 ] },
+                { "exercise": "Lateral Bound", "sets": 2, "reps": [ 6, 8, 10 ] }
+            ]
+        },
+        {
+            "category": "Strength A",
+            "exercises": [
+                { "exercise": "Front Squat", "sets": 3, "reps": [ "10", "8", "6" ] },
+                { "exercise": "Bench Press", "sets": 3, "reps": [ "10", "8", "8" ] },
+                { "exercise": "DB Row", "sets": 3, "reps": [ "10", "8", "8" ] },
+                { "exercise": "RDL", "sets": 3, "reps": [ "10", "8", "8" ] }
+            ]
+        },
+        {
+            "category": "Strength B",
+            "exercises": [
+                { "exercise": "Deadlift", "sets": 3, "reps": [ "8", "6", "6" ] },
+                { "exercise": "Push Press", "sets": 3, "reps": [ "8", "8", "6" ] },
+                { "exercise": "Single Leg Squat", "sets": 3, "reps": [ "8 @", "8 @", "10 @" ] }
+            ]
+        },
+        {
+            "category": "Physioball",
+            "exercises": [
+                { "exercise": "Russian Twist", "sets": 2, "reps": [ "10 @", "12 @", "14 @" ] },
+                { "exercise": "Leg Curl", "sets": 2, "reps": [ "10", "12", "14" ] }
+            ]
+        },
+        {
+            "category": "Energy System Development",
+            "exercises": [
+                { "exercise": "ESD 10 Lactate Power", "description": "Short Intervals, Max Effort" }
+            ]
+        },
+        {
+            "category": "Regeneration",
+            "exercises": [
+                { "exercise": "Foam Roll", "reps": [ "10 mins" ] },
+                { "exercise": "AIS Rope Stretch", "reps": [ "8 reps each side", "10 reps each side", "12 reps each side" ] }
+            ]
+        }
+    ]
+}

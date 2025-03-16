@@ -1,0 +1,11 @@
+[
+    {"name": "Home", "page": "home", "content": "Welcome to the Home page."},
+    {"name": "About", "page": "about", "content": "Information about us."},
+    {"name": "Contact", "page": "contact", "content": "Contact us here."},
+    {"name": "Workout", "page": "workout", "content": ""},
+    {"name": "Phase 1", "page": "phase1", "content": ""},
+    {"name": "Phase 2", "page": "phase2", "content": ""},
+    {"name": "Phase 3", "page": "phase3", "content": ""},
+    {"name": "Phase 4", "page": "phase4", "content": ""}
+  ]
+  
