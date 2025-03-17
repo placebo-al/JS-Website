@@ -32,20 +32,38 @@
                 { "name": "Alt DB Bench Press", "sets": 2, "reps": [ 15, 12, 12 ] },
                 { "name": "FB Leg Curl", "sets": 2, "reps": [ 10, 12, 12 ] },
                 { "name": "1-Arm 1-Leg DB Row", "sets": 2, "reps": [ 10, 12, 12 ] },
-                { "name": "Split Squat/Lunge", "sets": 2, "reps": [ 15, 12, 12 ] }
+                { "name": "Split Squat/Lunge", "sets": 2, "reps": [ 15, 12, 12 ] },
+                { "name": "Floor/Physioball Pushup Plus", "sets": 2, "reps": [ 8, 10, 12 ] },
+                { "name": "Split DB Curl-to-Press", "sets": 2, "reps": [ 8 , 10, 12 ] },
+                { "name": "DB Pullover Extension", "sets": 2, "reps": [ 15, 12, 10 ] },
+                { "name": "FB Reach, Roll, Lift", "sets": 2, "reps": [ 10, 10, 10 ] }
             ]
         },
         {
             "category": "Prehab",
             "exercises": [
+                { "name": "Floor PB Y", "sets": 1, "reps": [ 8, 10, 10 ] },
                 { "name": "Floor PB T", "sets": 1, "reps": [ 8, 10, 10 ] },
-                { "name": "Floor PB Y", "sets": 1, "reps": [ 8, 10, 10 ] }
+                { "name": "Floor PB W", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Floor PB L", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "PB Pushup Plus", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "FB Reach, Roll, Lift", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Glute Bridge", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Side Lying Ad/ Abduction", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Pillar Bridge Front", "sets": 1, "reps": [ "20 sec", "30 sec", "30 sec" ] },
+                { "name": "Pillar Bridge Side", "sets": 1, "reps": [ "20 sec", "30 sec", "30 sec" ] }
             ]
         },
         {
             "category": "Physioball",
-            "exercises": [ { "name": "Lateral Roll", "sets": 1, "reps": [ 8, 10, 10 ] },
-                { "name": "Russian Twist", "sets": 1, "reps": [ 8, 10, 10 ] }
+            "exercises": [ 
+                { "name": "Lateral Roll", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Russian Twist", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Plate Crunch", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Lying Opposites", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Reverse Crunch", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Bridging", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Hip Crossover", "sets": 1, "reps": [ 8, 10, 10 ] }
             ]
         },
         {
@@ -70,8 +88,20 @@
         {
             "category": "Regeneration",
             "exercises": [
-                { "name": "Foam Roll", "sets": 1, "reps": [ "8", "10", "12" ] },
-                { "name": "AIS Rope Stretch", "sets": 1, "reps": [ "8", "10", "12" ] }
+                { "name": "Foam Roll Hamstring", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "Foam IT Band", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "Foam Quad / Groin", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "Foam Glute", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "Foam Back / Lat", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope Calf", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope Hamstring", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope ITB / Glute", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope Adductors", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope Quad / Hip", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Shoulder Lying", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope Triceps", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS 90 / 90 Stretch", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Quadruped Rocking", "sets": 1, "reps": [ "8", "10", "12" ] }
             ]
         }
     ]

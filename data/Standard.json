@@ -22,6 +22,7 @@
       },
       {
         "category": "Strength",
+        // Add in Tempo, rest between sets
         "exercises": [
           {"name": "Exercise Name", "sets": 3, "reps": [8, 8, 10], "tempo": "30X"}
         ]
@@ -40,6 +41,7 @@
       },
       {
         "category": "Energy System Development",
+        // Add in number of reps, warm up and cool down
         "exercises": [
           {
             "name": "ESD Lactate Power",

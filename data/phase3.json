@@ -14,52 +14,126 @@
     },
     "exercise_categories": [
         {
-            "category": "Movement Prep",
+            "category": "Movement Prep A",
             "exercises": [
-                { "name": "Hand Walk", "reps": [ 5, 6, 7 ] }
+                { "name": "Forward Lunge/ Elbow to Instep", "sets": 1, "reps": [ 4, 5, 5 ] },
+                { "name": "Backward Lunge with a Twist", "sets": 1, "reps": [ 4, 5, 5 ] },
+                { "name": "Calf Stretch", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Hand Walk", "sets": 1, "reps": [ 4, 5, 5 ] },
+                { "name": "Inverted Hamstring", "sets": 1, "reps": [ 4, 5, 5 ] }
             ]
         },
         {
-            "category": "Strength",
+            "category": "Movement Prep B",
             "exercises": [
-                { "name": "Front Squat", "sets": 3, "reps": [ "10", "8", "6" ] }
+                { "name": "Hip Crossover", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Scorpion", "sets": 1, "reps": [ 8, 10, 10 ] },
+                { "name": "Lateral Lunge", "sets": 1, "reps": [ 4, 5, 5 ] },
+                { "name": "Drop Lunge", "sets": 1, "reps": [ 4, 5, 5 ] },
+                { "name": "Sumo Squat to Stand", "sets": 1, "reps": [ 8, 10, 10 ] }
             ]
         },
         {
-            "category": "Elasticity",
+            "category": "Strength A",
             "exercises": [
-                { "name": "Lateral Bound", "sets": 2, "reps": [ 5, 6, 7 ] }
+                { "name": "Bench Press", "sets": 3, "reps": [ 8, 8, 8 ] },
+                { "name": "Romanian Deadlift", "sets": 3, "reps": [ 8, 8, 8 ] },
+                { "name": "Split Squat/Lunge", "sets": 3, "reps": [ 8, 8, 8 ] },
+                { "name": "Pullup (horiz-vertical)", "sets": 3, "reps": [ 6, 8, 10 ] },
+                { "name": "Cable 1 Arm Rot. Row", "sets": 2, "reps": [ 8, 10, 12 ] },
+                { "name": "Split DB Curl-to-Press", "sets": 2, "reps": [ 8 , 10, 12 ] },
+                { "name": "DB Pullover Extension", "sets": 2, "reps": [ 15, 12, 10 ] }
+            ]
+        },
+        {
+            "category": "Strength B",
+            "exercises": [
+                { "name": "Alt DB Bench Press", "sets": 2, "reps": [ 10, 10, 8 ] },
+                { "name": "Split Squat/Lunge", "sets": 2, "reps": [ 15, 12, 12 ] },
+                { "name": "1-Arm 1-Leg DB Row", "sets": 2, "reps": [ 10, 12, 12 ] },
+                { "name": "FB Leg Curl", "sets": 2, "reps": [ 10, 12, 12 ] },
+                { "name": "Cable Lifting", "sets": 2, "reps": [ 8, 10, 12 ] },
+                { "name": "Cable Chopping", "sets": 2, "reps": [ 8 , 10, 12 ] },
+                { "name": "Split DB Curl-to-Press", "sets": 2, "reps": [ 15, 12, 10 ] }
+            ]
+        },
+        {
+            "category": "Elasticity A",
+            "exercises": [
+                { "name": "Base Side to Side", "sets": 2, "reps": [ "6 sec", "8 sec", "10 sec" ] },
+                { "name": "Base Rotation", "sets": 2, "reps": [ "6 sec", "8 sec", "10 sec" ] },
+                { "name": "Squat Jump", "sets": 2, "reps": [ 5, 6, 7 ] },
+                { "name": "Lateral Bound", "sets": 2, "reps": [ 2, 3, 4 ] }
+            ]
+        },
+        {
+            "category": "Elasticity B",
+            "exercises": [
+                { "name": "Base Side to Side", "sets": 2, "reps": [ "6 sec", "8 sec", "10 sec" ] },
+                { "name": "Base Rotation", "sets": 2, "reps": [ "6 sec", "8 sec", "10 sec" ] },
+                { "name": "Squat Jump", "sets": 2, "reps": [ 5, 6, 7 ] },
+                { "name": "Lateral Bound", "sets": 2, "reps": [ 2, 3, 4 ] }
             ]
         },
         {
             "category": "Physioball",
             "exercises": [
-                { "name": "Physioball Crunch", "sets": 2, "reps": [ 8, 10, 12 ] }
+                { "name": "Lateral Roll", "sets": 1, "reps": [ 10, 12, 14 ] },
+                { "name": "Russian Twist + weight", "sets": 1, "reps": [ 10, 12, 14 ] },
+                { "name": "Plate Crunch + weight", "sets": 1, "reps": [ 10, 12, 14 ] },
+                { "name": "Knee Tuck", "sets": 1, "reps": [ 10, 12, 14 ] },
+                { "name": "Lying Opposites", "sets": 1, "reps": [ 10, 12, 14 ] },
+                { "name": "Reverse Hyper", "sets": 1, "reps": [ 10, 12, 14 ] },
+                { "name": "Reverse Crunch", "sets": 1, "reps": [ 10, 12, 14 ] },
+                { "name": "Bridging", "sets": 1, "reps": [ 10, 12, 14 ] },
+                { "name": "Hip Crossover", "sets": 1, "reps": [ 10, 12, 14 ] }
             ]
         },
         {
             "category": "Energy System Development",
             "exercises": [
                 {
-                    "name": "ESD Lactate Power",
+                    "name": "ESD 3 Aerobic",
+                    "description": "Aerobic work",
+                    "work_interval": "",
+                    "rest_interval": "",
+                    "total_time": "30 min"
+                  },
+                  {
+                    "name": "ESD 4 Lactate Power",
                     "description": "Short, High-Intensity Intervals",
-                    "work_interval": "30 sec",
-                    "rest_interval": "60 sec",
+                    "work_interval": "2 min",
+                    "rest_interval": "2 min",
                     "total_time": "15 min"
                   },
                   {
-                    "name": "ESD Lactate Power",
+                    "name": "ESD 5 Lactate Power",
                     "description": "Short, High-Intensity Intervals",
-                    "work_interval": "30 sec",
-                    "rest_interval": "60 sec",
+                    "work_interval": "3 min",
+                    "rest_interval": "3 min",
                     "total_time": "15 min"
-                  }
+                }
             ]
         },
         {
             "category": "Regeneration",
             "exercises": [
-                { "name": "Foam Roll", "sets": 1, "reps": [ "10 mins" ] }
+                { "name": "Foam Roll Regeneration", "sets": 1, "reps": [ "", "", "" ] },
+                { "name": "Foam Roll Hamstring", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "Foam IT Band", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "Foam Quad / Groin", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "Foam Glute", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "Foam Back / Lat", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Regeneration", "sets": 1, "reps": [ "", "", "" ] },
+                { "name": "AIS Rope Calf", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope Hamstring", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope ITB / Glute", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope Adductors", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope Quad / Hip", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Shoulder Lying", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Rope Triceps", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS 90 / 90 Stretch", "sets": 1, "reps": [ "8", "10", "12" ] },
+                { "name": "AIS Quadruped Rocking", "sets": 1, "reps": [ "8", "10", "12" ] }
             ]
         }
     ]
